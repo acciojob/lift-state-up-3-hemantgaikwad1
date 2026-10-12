@@ -10,7 +10,7 @@ const App = () => {
 setSelectedOption(val);
   }
   return (
-    <div>
+    <div className="parent">
       <h1>Parent Component</h1>
     <ChildComponent1 updateoption={updateoption}/>
     <ChildComponent2 updateoption={updateoption}/>
